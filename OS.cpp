@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 
-struct process
+struct process  // structure of processes
 {
 	
 int	cpu_burst,arrival_time,pid;
