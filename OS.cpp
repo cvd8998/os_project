@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+
 
 struct process  // structure of processes
 {
@@ -211,6 +211,7 @@ for(i=0;i<n;i++)
 	avgturn=(float)(sumturn/k);
 	avgwait=(float)(sumwait/k);
 	printf("\n\nAVERAGE WAITING TIME =  %f\nAVERAGE TURN AROUND TIME  =  %f",avgwait,avgturn);
+	return 0;
 }
 
 
