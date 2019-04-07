@@ -199,6 +199,7 @@ for(i=0;i<n;i++)
           		i--;
 		
 	}
+	//result of processes
      	printf("\n\n\n\nProcess No.    Waiting time      TurnAround time\n\n");
 	for(i=0;i<k;i++)
 	{
